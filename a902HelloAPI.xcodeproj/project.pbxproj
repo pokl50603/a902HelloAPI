@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		223856A65713BFD7E61989CE /* Pods_a902HelloAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D610DF13F073D5247F9A6D37 /* Pods_a902HelloAPI.framework */; };
 		3CE7E1432903B1EB003AB706 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7E1422903B1EB003AB706 /* AppDelegate.swift */; };
 		3CE7E1452903B1EB003AB706 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7E1442903B1EB003AB706 /* SceneDelegate.swift */; };
 		3CE7E1472903B1EB003AB706 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7E1462903B1EB003AB706 /* ViewController.swift */; };
 		3CE7E14A2903B1EB003AB706 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE7E1482903B1EB003AB706 /* Main.storyboard */; };
 		3CE7E14C2903B1EC003AB706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE7E14B2903B1EC003AB706 /* Assets.xcassets */; };
 		3CE7E14F2903B1EC003AB706 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE7E14D2903B1EC003AB706 /* LaunchScreen.storyboard */; };
+		3CE7E1572903B460003AB706 /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7E1562903B460003AB706 /* APIModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3174F6610ACFD6ADBB99EDA2 /* Pods-a902HelloAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-a902HelloAPI.debug.xcconfig"; path = "Target Support Files/Pods-a902HelloAPI/Pods-a902HelloAPI.debug.xcconfig"; sourceTree = "<group>"; };
 		3CE7E13F2903B1EB003AB706 /* a902HelloAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = a902HelloAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CE7E1422903B1EB003AB706 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CE7E1442903B1EB003AB706 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		3CE7E14B2903B1EC003AB706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CE7E14E2903B1EC003AB706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CE7E1502903B1EC003AB706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CE7E1562903B460003AB706 /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
+		450BC8F924605EA595F3E929 /* Pods-a902HelloAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-a902HelloAPI.release.xcconfig"; path = "Target Support Files/Pods-a902HelloAPI/Pods-a902HelloAPI.release.xcconfig"; sourceTree = "<group>"; };
+		D610DF13F073D5247F9A6D37 /* Pods_a902HelloAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_a902HelloAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				223856A65713BFD7E61989CE /* Pods_a902HelloAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				3CE7E1412903B1EB003AB706 /* a902HelloAPI */,
 				3CE7E1402903B1EB003AB706 /* Products */,
+				EBF470446C350D9E04598371 /* Pods */,
+				F7CF63849441EF5A2DBE3F8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +72,26 @@
 				3CE7E14B2903B1EC003AB706 /* Assets.xcassets */,
 				3CE7E14D2903B1EC003AB706 /* LaunchScreen.storyboard */,
 				3CE7E1502903B1EC003AB706 /* Info.plist */,
+				3CE7E1562903B460003AB706 /* APIModel.swift */,
 			);
 			path = a902HelloAPI;
+			sourceTree = "<group>";
+		};
+		EBF470446C350D9E04598371 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3174F6610ACFD6ADBB99EDA2 /* Pods-a902HelloAPI.debug.xcconfig */,
+				450BC8F924605EA595F3E929 /* Pods-a902HelloAPI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F7CF63849441EF5A2DBE3F8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D610DF13F073D5247F9A6D37 /* Pods_a902HelloAPI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CE7E1532903B1EC003AB706 /* Build configuration list for PBXNativeTarget "a902HelloAPI" */;
 			buildPhases = (
+				61DBD78B2958A41B244A3261 /* [CP] Check Pods Manifest.lock */,
 				3CE7E13B2903B1EB003AB706 /* Sources */,
 				3CE7E13C2903B1EB003AB706 /* Frameworks */,
 				3CE7E13D2903B1EB003AB706 /* Resources */,
+				718E8710F05ECE9676904DF3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,11 +162,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		61DBD78B2958A41B244A3261 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-a902HelloAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		718E8710F05ECE9676904DF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-a902HelloAPI/Pods-a902HelloAPI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-a902HelloAPI/Pods-a902HelloAPI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-a902HelloAPI/Pods-a902HelloAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3CE7E13B2903B1EB003AB706 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CE7E1572903B460003AB706 /* APIModel.swift in Sources */,
 				3CE7E1472903B1EB003AB706 /* ViewController.swift in Sources */,
 				3CE7E1432903B1EB003AB706 /* AppDelegate.swift in Sources */,
 				3CE7E1452903B1EB003AB706 /* SceneDelegate.swift in Sources */,
@@ -282,6 +354,7 @@
 		};
 		3CE7E1542903B1EC003AB706 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3174F6610ACFD6ADBB99EDA2 /* Pods-a902HelloAPI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +382,7 @@
 		};
 		3CE7E1552903B1EC003AB706 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 450BC8F924605EA595F3E929 /* Pods-a902HelloAPI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
